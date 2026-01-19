@@ -2,7 +2,7 @@ package TP5.IO;
 import  java.io.File;
 public class LsCommand {
     public static void main(String[] args) {
-        File dir = new File("C:/Users/Anas/Desktop/Smart City Speach.txt");
+        File dir = new File("E:/Old/Projects/ETL Pipelines");
         if (!dir.exists() || !dir.isDirectory()) {
             System.out.println("Wrong path directory");
             return;
@@ -27,3 +27,4 @@ public class LsCommand {
         }
     }
 }
+
